@@ -1,0 +1,170 @@
+@media screen and (max-width:1080px) {
+    .info__wrap {
+        gap: 20px;
+    }
+
+    .info__cards-big {
+
+        padding: 30px 40px 30px 25px;
+    }
+
+    .info__cards {
+        padding: 35px 20px 0 30px;
+    }
+
+    .info__cards-p {
+        font-size: 16px;
+    }
+
+    .info__cards-h {
+        font-size: 19px;
+        padding: 0 0 18px;
+    }
+
+    .info__cards a {
+        font-size: 16px;
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .info__wrap {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .info__cards-big {
+        padding: 25px 40px 25px 20px;
+    }
+
+    .info__cards {
+        height: 350px;
+        padding: 25px 15px 0 20px;
+
+    }
+
+    .info__cards-p {
+        font-size: 14px;
+    }
+
+    .info__cards-h {
+        font-size: 17px;
+        padding: 0 0 20px;
+    }
+
+    .info__cards a {
+        font-size: 14px;
+        padding: 25px 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header__menu a {
+        font-size: 14px;
+    }
+
+    .header__menu {
+        gap: 17px;
+        padding: 45px 0 22px;
+    }
+
+    .logo img {
+        width: 90px;
+    }
+
+    .footer__logo img {
+        width: 190px;
+    }
+
+    .footer__info p {
+        font-size: 14px;
+
+    }
+
+    .footer__info a {
+        font-size: 20px;
+    }
+
+    .banner {
+        height: 450px;
+        margin: 0 0 20px 0;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+    .banner {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header__menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px 0 10px;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 70px;
+    }
+
+    .header__menu a {
+        font-size: 12px;
+    }
+
+    .banner {
+        height: 360px;
+    }
+
+}
+
+@media screen and (max-width:460px) {
+    .banner {
+        height: 320px;
+    }
+
+    .info__cards-big {
+        padding: 20px 30px 20px 15px;
+    }
+
+    .info__cards {
+        padding: 20px 40px 0 20px;
+        height: 300px;
+    }
+
+    .info__cards-h {
+        font-size: 13px;
+        padding: 0 0 15px 0;
+
+    }
+
+    .info__cards-p {
+        font-size: 13px;
+    }
+
+    .info__cards a {
+        padding: 18px 0;
+    }
+
+    .footer__wrap {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .footer__info {
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .footer__logo {
+        padding: 15px 0 0 0;
+    }
+}
+
+
